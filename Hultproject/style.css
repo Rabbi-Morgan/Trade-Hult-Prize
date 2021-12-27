@@ -1,0 +1,134 @@
+body {
+  
+  
+  background-color: whitesmoke
+  
+  
+}
+h2 {
+  text-align: center;
+  position: relative;
+  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(60, 60, 60);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: small;
+   
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+ 
+  li a:link {
+    color: red;
+  }
+  
+  /* visited link */
+ li a:visited {
+    color: rgb(171, 209, 171);
+  }
+  
+  /* mouse over link */
+ li a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  li a:active {
+    color: blue;
+  }
+  
+  li {
+    border-right: 1px solid #bbb;
+    
+   
+  }
+  
+  li:last-child {
+    border-right: none;
+    float: right;
+  }
+ 
+
+  /* school images design */
+ 
+
+
+ 
+  h3 {
+    font-size: 10pt;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    font-size: 9pt;
+    text-align:center;
+    color: white;
+  
+  }
+  
+  
+  
+  
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* check more university*/
+  .btn {
+    margin-top: 15px;
+    font-size: 9pt;
+    text-align: center;
+  }
+
+  .listuni {
+    background-color: rgb(60, 60, 60);
+    margin-bottom: 40px;
+   
+  }
+
+  h5 a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  h5 a:visited {
+    color: rgb(219, 219, 219);
+  }
+  
+  /* mouse over link */
+  h5 a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  h5 a:active {
+    color: blue;
+  }
